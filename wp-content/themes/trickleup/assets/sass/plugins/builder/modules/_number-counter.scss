@@ -1,0 +1,37 @@
+#tm_builder_outer_content {
+
+	.tm_pb_number_counter.tm_pb_module {
+
+		.tm-pb-icon {
+			@include font-size(2.75);
+			margin-bottom: 25px;
+			line-height: 1;
+			display: inline-block;
+			text-align: center;
+		}
+
+		.percent {
+			line-height: 1;
+			height: auto;
+			min-height: 40px;
+			padding-bottom: 28px;
+			font-weight: bold;
+				&:before {
+					content: '';
+					position: absolute;
+				    bottom: 0;
+				    left: 50%;
+				    margin-left: -34px;
+					height: 2px;
+					width: 68px;
+					background-color: #121212;
+				}
+		}
+		h3 {
+			padding-top: 15px;
+			margin-bottom: 0;
+		}
+
+	}
+
+}

@@ -1,0 +1,27 @@
+.subscribe-block__input[type='email'] {
+	color: $regular_text_color;
+	font-style: $body_font_style;
+}
+.subscribe-block__message {
+	color: $regular_h6_color;
+}
+.subscribe-block__input-wrap i {
+	color: @lighten($regular_text_color, 25%);
+}
+.after-content-full-width-area .subscribe-block__input[type='email'] {
+	background-color: $invert_accent_color_1;
+}
+.invert .subscribe-block__message {
+	color: $invert_h6_color;
+	font-weight: $h2_font_weight;
+}
+.invert .subscribe-block .subscribe-block__submit {
+	color: $regular_accent_color_3;
+	border-color: $regular_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+.invert .subscribe-block .subscribe-block__submit:hover {
+	color: $regular_accent_color_3;
+	border-color: $regular_accent_color_3;
+	background-color: transparent;
+}

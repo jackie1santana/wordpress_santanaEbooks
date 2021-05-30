@@ -1,0 +1,16 @@
+/* #Footer */
+.site-footer {
+	background-color: $footer_bg;
+}
+.footer-area-wrap {
+	background-color: $footer_widgets_bg;
+}
+.footer-copyright {
+	color: $invert_h6_color;
+}
+.footer-copyright a {
+	color: $regular_accent_color_1;
+}
+.footer-copyright a:hover {
+	color: $invert_h6_color;
+}
